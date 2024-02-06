@@ -10,13 +10,6 @@ const userSchema = new Schema(
       trim: true,
       index: true, //when the field is extensively used in searching
     },
-    email: {
-      type: String,
-      required: true,
-      unique: true,
-      lowercase: true,
-      trim: true,
-    },
     password: {
       type: String,
       required: [true, "Password is required"],
