@@ -11,4 +11,4 @@ router.route("/login").post(login);
 router.route("/logout").post(logout);
 router.route("/login-google").post(loginWithGoogle);
 
-export default router;
+export {router};
